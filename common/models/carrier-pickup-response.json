@@ -1,0 +1,33 @@
+{
+  "name": "CarrierPickupResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "ErrorMsg": {
+      "type": "string"
+    },
+    "PickupDate": {
+      "type": "string"
+    },
+    "PickUpDayOfWeek": {
+      "type": "string"
+    },
+    "ConfirmationNumber": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,45 @@
+{
+  "name": "CleanseAddressResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "Address"
+    },
+    "AddressMatch": {
+      "type": "boolean"
+    },
+    "CityStateZipOK": {
+      "type": "boolean"
+    },
+    "ResidentialDeliveryIndicator": {
+      "type": "ResidentialDeliveryIndicatorType"
+    },
+    "IsPOBox": {
+      "type": "boolean"
+    },
+    "CandidateAddresses": {
+      "type": "ArrayOfAddress"
+    },
+    "StatusCodes": {
+      "type": "StatusCodes"
+    },
+    "Rates": {
+      "type": "ArrayOfRateV21"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "GetBalanceHistoryResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "BalanceHistoryToken": {
+      "type": "string"
+    },
+    "TotalTransactions": {
+      "type": "number"
+    },
+    "TotalPages": {
+      "type": "number"
+    },
+    "Transactions": {
+      "type": "ArrayOfTransaction"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "GetRates",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "Authenticator": {
+      "type": "string"
+    },
+    "Rate": {
+      "type": "RateV21"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

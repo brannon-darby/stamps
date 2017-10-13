@@ -1,0 +1,36 @@
+{
+  "name": "SetCodeWords",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "Authenticator": {
+      "type": "string"
+    },
+    "Codeword1Type": {
+      "type": "CodewordType"
+    },
+    "Codeword1": {
+      "type": "string"
+    },
+    "Codeword2Type": {
+      "type": "CodewordType"
+    },
+    "Codeword2": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

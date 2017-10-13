@@ -1,0 +1,30 @@
+{
+  "name": "LabelRecipientInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EmailAddress": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "CopyToOriginator": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

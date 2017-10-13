@@ -1,0 +1,30 @@
+{
+  "name": "GetBalanceHistoryByToken",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "Authenticator": {
+      "type": "string"
+    },
+    "BalanceHistoryToken": {
+      "type": "string"
+    },
+    "PageNumber": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

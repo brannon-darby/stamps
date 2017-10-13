@@ -1,0 +1,24 @@
+{
+  "name": "EnumNetStampsLayoutsResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Layouts": {
+      "type": "ArrayOfNetStampsLayout"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,126 @@
+{
+  "name": "RateV21",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "FromZIPCode": {
+      "type": "string-3-10"
+    },
+    "ToZIPCode": {
+      "type": "string-3-10"
+    },
+    "ToCountry": {
+      "type": "string-2-2"
+    },
+    "Amount": {
+      "type": "number"
+    },
+    "MaxAmount": {
+      "type": "number"
+    },
+    "ServiceType": {
+      "type": "ServiceType"
+    },
+    "PrintLayout": {
+      "type": "string"
+    },
+    "DeliverDays": {
+      "type": "string"
+    },
+    "WeightLb": {
+      "type": "number"
+    },
+    "WeightOz": {
+      "type": "number"
+    },
+    "PackageType": {
+      "type": "PackageTypeV6"
+    },
+    "RequiresAllOf": {
+      "type": "ArrayOfArrayOfAddOnTypeV8"
+    },
+    "Length": {
+      "type": "double-le-999"
+    },
+    "Width": {
+      "type": "double-le-999"
+    },
+    "Height": {
+      "type": "double-le-999"
+    },
+    "ShipDate": {
+      "type": "date"
+    },
+    "DeliveryDate": {
+      "type": "date"
+    },
+    "InsuredValue": {
+      "type": "number"
+    },
+    "RegisteredValue": {
+      "type": "number"
+    },
+    "CODValue": {
+      "type": "number"
+    },
+    "DeclaredValue": {
+      "type": "number"
+    },
+    "NonMachinable": {
+      "type": "boolean"
+    },
+    "RectangularShaped": {
+      "type": "boolean"
+    },
+    "Prohibitions": {
+      "type": "string"
+    },
+    "Restrictions": {
+      "type": "string"
+    },
+    "Observations": {
+      "type": "string"
+    },
+    "Regulations": {
+      "type": "string"
+    },
+    "GEMNotes": {
+      "type": "string"
+    },
+    "MaxDimensions": {
+      "type": "string"
+    },
+    "DimWeighting": {
+      "type": "string"
+    },
+    "AddOns": {
+      "type": "ArrayOfAddOnV8"
+    },
+    "EffectiveWeightInOunces": {
+      "type": "number"
+    },
+    "Zone": {
+      "type": "number"
+    },
+    "RateCategory": {
+      "type": "number"
+    },
+    "ToState": {
+      "type": "string"
+    },
+    "CubicPricing": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

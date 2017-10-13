@@ -1,0 +1,36 @@
+{
+  "name": "GetPurchaseStatusResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "PurchaseStatus": {
+      "type": "PurchaseStatus"
+    },
+    "PostageBalance": {
+      "type": "PostageBalance"
+    },
+    "RejectionReason": {
+      "type": "string"
+    },
+    "MIRequired": {
+      "type": "boolean"
+    },
+    "RejectionCode": {
+      "type": "PurchaseRejectionCode"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

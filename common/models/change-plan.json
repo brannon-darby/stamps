@@ -1,0 +1,33 @@
+{
+  "name": "ChangePlan",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "PlanId": {
+      "type": "number"
+    },
+    "PromoCode": {
+      "type": "string"
+    },
+    "SendEmail": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

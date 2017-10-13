@@ -1,0 +1,666 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "soap_SwsimV57Soap12": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateIndicium": {
+    "dataSource": null,
+    "public": true
+  },
+  "Credentials": {
+    "dataSource": null,
+    "public": true
+  },
+  "RateV21": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfArrayOfAddOnTypeV8": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAddOnTypeV8": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAddOnV8": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddOnV8": {
+    "dataSource": null,
+    "public": true
+  },
+  "Address": {
+    "dataSource": null,
+    "public": true
+  },
+  "CustomsV4": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfCustomsLine": {
+    "dataSource": null,
+    "public": true
+  },
+  "CustomsLine": {
+    "dataSource": null,
+    "public": true
+  },
+  "ShipmentNotification": {
+    "dataSource": null,
+    "public": true
+  },
+  "LabelRecipientInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateIndiciumResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PostageBalance": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfBase64Binary": {
+    "dataSource": null,
+    "public": true
+  },
+  "HoldForPickUpFacility": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateEnvelopeIndicium": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateEnvelopeIndiciumResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateUnfundedIndicium": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateUnfundedIndiciumResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRates": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRatesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfRateV21": {
+    "dataSource": null,
+    "public": true
+  },
+  "CleanseAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "CleanseAddressResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "StatusCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfFootnote": {
+    "dataSource": null,
+    "public": true
+  },
+  "Footnote": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfDpvFootnote": {
+    "dataSource": null,
+    "public": true
+  },
+  "DpvFootnote": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfInt": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateMailingLabelIndicia": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfIndiciumInfoV13": {
+    "dataSource": null,
+    "public": true
+  },
+  "IndiciumInfoV13": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateMailingLabelIndiciaResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfString": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateNetStampsIndicia": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNetStampV17": {
+    "dataSource": null,
+    "public": true
+  },
+  "NetStampV17": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateNetStampsIndiciaResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfIndiciumData": {
+    "dataSource": null,
+    "public": true
+  },
+  "IndiciumData": {
+    "dataSource": null,
+    "public": true
+  },
+  "RegisterAccount": {
+    "dataSource": null,
+    "public": true
+  },
+  "MachineInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "FP": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreditCard": {
+    "dataSource": null,
+    "public": true
+  },
+  "AchAccount": {
+    "dataSource": null,
+    "public": true
+  },
+  "RegisterAccountResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateScanForm": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfGuid": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateScanFormResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PriceOrder": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfSku": {
+    "dataSource": null,
+    "public": true
+  },
+  "Sku": {
+    "dataSource": null,
+    "public": true
+  },
+  "PriceOrderResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfStoreShippingMethodOption": {
+    "dataSource": null,
+    "public": true
+  },
+  "StoreShippingMethodOption": {
+    "dataSource": null,
+    "public": true
+  },
+  "PlaceOrder": {
+    "dataSource": null,
+    "public": true
+  },
+  "PlaceOrderResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetShipmentList": {
+    "dataSource": null,
+    "public": true
+  },
+  "Filters": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfSearchFor": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfIncludeField": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetShipmentListResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfShipmentV12": {
+    "dataSource": null,
+    "public": true
+  },
+  "ShipmentV12": {
+    "dataSource": null,
+    "public": true
+  },
+  "ServicesV7": {
+    "dataSource": null,
+    "public": true
+  },
+  "PackageInfoV1": {
+    "dataSource": null,
+    "public": true
+  },
+  "ReferencesV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "RefundStatusV1": {
+    "dataSource": null,
+    "public": true
+  },
+  "AdjustmentDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "ActualService": {
+    "dataSource": null,
+    "public": true
+  },
+  "ActualPackageInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "ClaimStatusType": {
+    "dataSource": null,
+    "public": true
+  },
+  "GPClaimStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetShipmentListByToken": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetShipmentListByTokenResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePlan": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePlanResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBalanceHistory": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfTransactionType": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBalanceHistoryResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfTransaction": {
+    "dataSource": null,
+    "public": true
+  },
+  "Transaction": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBalanceHistoryByToken": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBalanceHistoryByTokenResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PurchasePostage": {
+    "dataSource": null,
+    "public": true
+  },
+  "PurchasePostageResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CancelIndicium": {
+    "dataSource": null,
+    "public": true
+  },
+  "CancelIndiciumResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetURL": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetURLResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SetCodeWords": {
+    "dataSource": null,
+    "public": true
+  },
+  "SetCodeWordsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CarrierPickup": {
+    "dataSource": null,
+    "public": true
+  },
+  "CarrierPickupResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SetAutoBuy": {
+    "dataSource": null,
+    "public": true
+  },
+  "AutoBuySettings": {
+    "dataSource": null,
+    "public": true
+  },
+  "SetAutoBuyResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "EnumCodeWordTypes": {
+    "dataSource": null,
+    "public": true
+  },
+  "EnumCodeWordTypesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfCodeword": {
+    "dataSource": null,
+    "public": true
+  },
+  "Codeword": {
+    "dataSource": null,
+    "public": true
+  },
+  "RecoverUsername": {
+    "dataSource": null,
+    "public": true
+  },
+  "RecoverUsernameResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSupportedCountries": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSupportedCountriesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfCountryInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CountryInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePassword": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePasswordResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNetStampsImages": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNetStampsImagesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNetStampsImage": {
+    "dataSource": null,
+    "public": true
+  },
+  "NetStampsImage": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPlan": {
+    "dataSource": null,
+    "public": true
+  },
+  "Plan": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetChangePlanStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetChangePlanStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ResubmitPurchase": {
+    "dataSource": null,
+    "public": true
+  },
+  "ResubmitPurchaseResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "EnumNetStampsLayouts": {
+    "dataSource": null,
+    "public": true
+  },
+  "EnumNetStampsLayoutsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNetStampsLayout": {
+    "dataSource": null,
+    "public": true
+  },
+  "NetStampsLayout": {
+    "dataSource": null,
+    "public": true
+  },
+  "EnumCostCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "EnumCostCodesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfCost_code_info_v1": {
+    "dataSource": null,
+    "public": true
+  },
+  "cost_code_info_v1": {
+    "dataSource": null,
+    "public": true
+  },
+  "AuthenticateWithTransferAuthenticator": {
+    "dataSource": null,
+    "public": true
+  },
+  "AuthenticateWithTransferAuthenticatorResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "StartPasswordReset": {
+    "dataSource": null,
+    "public": true
+  },
+  "StartPasswordResetResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "FinishPasswordReset": {
+    "dataSource": null,
+    "public": true
+  },
+  "FinishPasswordResetResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCodewordQuestions": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCodewordQuestionsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "VoidUnfundedIndicium": {
+    "dataSource": null,
+    "public": true
+  },
+  "VoidUnfundedIndiciumResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "FundUnfundedIndicium": {
+    "dataSource": null,
+    "public": true
+  },
+  "FundUnfundedIndiciumResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AuthenticateUser": {
+    "dataSource": null,
+    "public": true
+  },
+  "AuthenticateUserResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetAccountInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetAccountInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AccountInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CapabilitiesV11": {
+    "dataSource": null,
+    "public": true
+  },
+  "Terms": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPurchaseStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPurchaseStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "TrackShipment": {
+    "dataSource": null,
+    "public": true
+  },
+  "TrackShipmentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfTrackingEvent": {
+    "dataSource": null,
+    "public": true
+  },
+  "TrackingEvent": {
+    "dataSource": null,
+    "public": true
+  }
+}

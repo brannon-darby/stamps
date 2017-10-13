@@ -1,0 +1,30 @@
+{
+  "name": "GetAccountInfoResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "AccountInfo": {
+      "type": "AccountInfo"
+    },
+    "Address": {
+      "type": "Address"
+    },
+    "CustomerEmail": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

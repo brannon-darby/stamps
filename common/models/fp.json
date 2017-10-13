@@ -1,0 +1,33 @@
+{
+  "name": "FP",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "FP1": {
+      "type": "base64Binary"
+    },
+    "FP2": {
+      "type": "base64Binary"
+    },
+    "FP3": {
+      "type": "base64Binary"
+    },
+    "FP4": {
+      "type": "base64Binary"
+    },
+    "FP5": {
+      "type": "base64Binary"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

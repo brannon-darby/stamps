@@ -1,0 +1,24 @@
+{
+  "name": "cost_code_info_v1",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "id": {
+      "type": "unsignedInt"
+    },
+    "name": {
+      "type": "string-0-30"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

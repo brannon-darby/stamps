@@ -1,0 +1,84 @@
+{
+  "name": "CarrierPickup",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "Authenticator": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string-1-50"
+    },
+    "LastName": {
+      "type": "string-1-50"
+    },
+    "Company": {
+      "type": "string-0-50"
+    },
+    "Address": {
+      "type": "string-1-50"
+    },
+    "SuiteOrApt": {
+      "type": "string-0-10"
+    },
+    "City": {
+      "type": "string-1-30"
+    },
+    "State": {
+      "type": "string-2-2"
+    },
+    "ZIP": {
+      "type": "string-5-5"
+    },
+    "ZIP4": {
+      "type": "string-0-4"
+    },
+    "PhoneNumber": {
+      "type": "string-10-10"
+    },
+    "PhoneExt": {
+      "type": "string-0-6"
+    },
+    "NumberOfExpressMailPieces": {
+      "type": "number"
+    },
+    "NumberOfPriorityMailPieces": {
+      "type": "number"
+    },
+    "NumberOfInternationalPieces": {
+      "type": "number"
+    },
+    "NumberOfFirstClassPackagePieces": {
+      "type": "number"
+    },
+    "NumberOfParcelSelectPieces": {
+      "type": "number"
+    },
+    "NumberOfOtherPieces": {
+      "type": "number"
+    },
+    "TotalWeightOfPackagesLbs": {
+      "type": "number"
+    },
+    "PackageLocation": {
+      "type": "CarrierPickupLocationV1"
+    },
+    "SpecialInstruction": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

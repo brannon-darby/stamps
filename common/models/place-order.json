@@ -1,0 +1,36 @@
+{
+  "name": "PlaceOrder",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "Authenticator": {
+      "type": "string"
+    },
+    "Skus": {
+      "type": "ArrayOfSku"
+    },
+    "PromoCode": {
+      "type": "string"
+    },
+    "ShippingAddress": {
+      "type": "Address"
+    },
+    "StoreShippingMethod": {
+      "type": "StoreShippingMethodType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

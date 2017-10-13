@@ -1,0 +1,30 @@
+{
+  "name": "RegisterAccountResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "RegistrationStatus": {
+      "type": "RegistrationStatus"
+    },
+    "SuggestedUserName": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "number"
+    },
+    "PromoUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "GetShipmentList",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "ShipmentsPerPage": {
+      "type": "integer-ge-1-le-500"
+    },
+    "Filters": {
+      "type": "Filters"
+    },
+    "IncludeFields": {
+      "type": "ArrayOfIncludeField"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

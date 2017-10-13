@@ -1,0 +1,42 @@
+{
+  "name": "CreateMailingLabelIndiciaResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "StampsTxId": {
+      "type": "guid"
+    },
+    "Url": {
+      "type": "string"
+    },
+    "ConfirmationNumbers": {
+      "type": "ArrayOfString"
+    },
+    "PostageBalance": {
+      "type": "PostageBalance"
+    },
+    "IssuedLabelCount": {
+      "type": "number"
+    },
+    "ErrorReason": {
+      "type": "string"
+    },
+    "Mac": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

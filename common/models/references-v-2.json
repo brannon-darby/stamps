@@ -1,0 +1,30 @@
+{
+  "name": "ReferencesV2",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "UserName": {
+      "type": "string"
+    },
+    "CostCode": {
+      "type": "string"
+    },
+    "Memo": {
+      "type": "string"
+    },
+    "OrderId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

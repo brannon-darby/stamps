@@ -1,0 +1,33 @@
+{
+  "name": "CancelIndicium",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "Authenticator": {
+      "type": "string"
+    },
+    "StampsTxID": {
+      "type": "guid"
+    },
+    "TrackingNumber": {
+      "type": "string"
+    },
+    "SendEmail": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

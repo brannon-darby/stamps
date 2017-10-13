@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfTrackingEvent",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "TrackingEvent": {
+      "type": "TrackingEvent"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

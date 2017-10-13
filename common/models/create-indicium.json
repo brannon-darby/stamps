@@ -1,0 +1,126 @@
+{
+  "name": "CreateIndicium",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "IntegratorTxID": {
+      "type": "string-1-128"
+    },
+    "TrackingNumber": {
+      "type": "string-0-128"
+    },
+    "Rate": {
+      "type": "RateV21"
+    },
+    "From": {
+      "type": "Address"
+    },
+    "To": {
+      "type": "Address"
+    },
+    "CustomerID": {
+      "type": "string-1-64"
+    },
+    "Customs": {
+      "type": "CustomsV4"
+    },
+    "SampleOnly": {
+      "type": "boolean"
+    },
+    "PostageMode": {
+      "type": "PostageMode"
+    },
+    "ImageType": {
+      "type": "ImageType"
+    },
+    "EltronPrinterDPIType": {
+      "type": "EltronPrinterDPIType"
+    },
+    "memo": {
+      "type": "string"
+    },
+    "cost_code_id": {
+      "type": "number"
+    },
+    "deliveryNotification": {
+      "type": "boolean"
+    },
+    "ShipmentNotification": {
+      "type": "ShipmentNotification"
+    },
+    "rotationDegrees": {
+      "type": "number"
+    },
+    "horizontalOffset": {
+      "type": "number"
+    },
+    "verticalOffset": {
+      "type": "number"
+    },
+    "printDensity": {
+      "type": "number"
+    },
+    "printMemo": {
+      "type": "boolean"
+    },
+    "printInstructions": {
+      "type": "boolean"
+    },
+    "requestPostageHash": {
+      "type": "boolean"
+    },
+    "nonDeliveryOption": {
+      "type": "NonDeliveryOption"
+    },
+    "RedirectTo": {
+      "type": "Address"
+    },
+    "OriginalPostageHash": {
+      "type": "string"
+    },
+    "ReturnImageData": {
+      "type": "boolean"
+    },
+    "InternalTransactionNumber": {
+      "type": "string-1-35"
+    },
+    "PaperSize": {
+      "type": "PaperSizeV1"
+    },
+    "EmailLabelTo": {
+      "type": "LabelRecipientInfo"
+    },
+    "PayOnPrint": {
+      "type": "boolean"
+    },
+    "ReturnLabelExpirationDays": {
+      "type": "number"
+    },
+    "ImageDpi": {
+      "type": "ImageDpi"
+    },
+    "RateToken": {
+      "type": "string"
+    },
+    "OrderId": {
+      "type": "string-0-100"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

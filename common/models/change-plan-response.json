@@ -1,0 +1,30 @@
+{
+  "name": "ChangePlanResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "PurchaseStatus": {
+      "type": "PurchaseStatus"
+    },
+    "TransactionID": {
+      "type": "number"
+    },
+    "RejectionReason": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

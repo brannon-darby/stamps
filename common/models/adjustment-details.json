@@ -1,0 +1,48 @@
+{
+  "name": "AdjustmentDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AdjustmentStatus": {
+      "type": "AdjustmentStatus"
+    },
+    "DateAdjustmentProcessed": {
+      "type": "dateTime"
+    },
+    "DateRecorded": {
+      "type": "dateTime"
+    },
+    "ActualTrackingNumber": {
+      "type": "string"
+    },
+    "ActualFromZIPCode": {
+      "type": "string"
+    },
+    "ActualToCountry": {
+      "type": "string"
+    },
+    "ActualToZip": {
+      "type": "string"
+    },
+    "ActualService": {
+      "type": "ActualService"
+    },
+    "ActualAddOns": {
+      "type": "ArrayOfAddOnV8"
+    },
+    "ActualPackageInfo": {
+      "type": "ActualPackageInfo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

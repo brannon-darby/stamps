@@ -1,0 +1,33 @@
+{
+  "name": "PriceOrder",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "Skus": {
+      "type": "ArrayOfSku"
+    },
+    "PromoCode": {
+      "type": "string"
+    },
+    "ShippingAddress": {
+      "type": "Address"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,54 @@
+{
+  "name": "RefundStatusV1",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PostageRefundId": {
+      "type": "string"
+    },
+    "ClaimNumber": {
+      "type": "number"
+    },
+    "RequestDate": {
+      "type": "dateTime"
+    },
+    "PostageRefundStatus": {
+      "type": "PostageRefundStatusV1"
+    },
+    "EstimatedPostageRefundCompletionDate": {
+      "type": "dateTime"
+    },
+    "PostageAmountRequested": {
+      "type": "number"
+    },
+    "PostageAmountApproved": {
+      "type": "number"
+    },
+    "PostageRefundResult": {
+      "type": "string"
+    },
+    "InsuranceRefundStatus": {
+      "type": "PostageRefundStatusV1"
+    },
+    "EstimatedInsuranceRefundCompletionDate": {
+      "type": "dateTime"
+    },
+    "InsuranceAmountRequested": {
+      "type": "number"
+    },
+    "InsuranceAmountApproved": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

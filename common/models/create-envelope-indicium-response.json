@@ -1,0 +1,45 @@
+{
+  "name": "CreateEnvelopeIndiciumResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "IntegratorTxID": {
+      "type": "string-1-128"
+    },
+    "TrackingNumber": {
+      "type": "string-0-128"
+    },
+    "Rate": {
+      "type": "RateV21"
+    },
+    "StampsTxID": {
+      "type": "guid"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "PostageBalance": {
+      "type": "PostageBalance"
+    },
+    "Mac": {
+      "type": "string"
+    },
+    "PostageHash": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

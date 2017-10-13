@@ -1,0 +1,42 @@
+{
+  "name": "CreateScanForm",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "StampsTxIDs": {
+      "type": "ArrayOfGuid"
+    },
+    "FromAddress": {
+      "type": "Address"
+    },
+    "ImageType": {
+      "type": "ImageType"
+    },
+    "PrintInstructions": {
+      "type": "boolean"
+    },
+    "Carrier": {
+      "type": "Carrier"
+    },
+    "ShipDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "CreditCard",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CreditCardType": {
+      "type": "CreditCardType"
+    },
+    "AccountNumber": {
+      "type": "string"
+    },
+    "CVN": {
+      "type": "string"
+    },
+    "ExpirationDate": {
+      "type": "dateTime"
+    },
+    "BillingAddress": {
+      "type": "Address"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

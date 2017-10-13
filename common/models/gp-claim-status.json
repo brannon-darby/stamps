@@ -1,0 +1,39 @@
+{
+  "name": "GPClaimStatus",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "GPClaimType": {
+      "type": "ClaimType"
+    },
+    "GPClaimAmountRequested": {
+      "type": "number"
+    },
+    "GPClaimContentAmountApproved": {
+      "type": "number"
+    },
+    "GPClaimShippingAmountApproved": {
+      "type": "number"
+    },
+    "EventDate": {
+      "type": "dateTime"
+    },
+    "Status": {
+      "type": "ClaimStatus"
+    },
+    "StatusDetail": {
+      "type": "ClaimSubStatus"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

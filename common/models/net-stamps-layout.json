@@ -1,0 +1,69 @@
+{
+  "name": "NetStampsLayout",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "SerialNumberPattern": {
+      "type": "string"
+    },
+    "NumRows": {
+      "type": "number"
+    },
+    "NumColumns": {
+      "type": "number"
+    },
+    "BackgroundImageURL": {
+      "type": "string"
+    },
+    "BackgroundImageWidthPx": {
+      "type": "number"
+    },
+    "BackgroundImageHeightPx": {
+      "type": "number"
+    },
+    "EmptyNetStampImageURL": {
+      "type": "string"
+    },
+    "UsedNetStampImageURL": {
+      "type": "string"
+    },
+    "PrintedNetStampImageURL": {
+      "type": "string"
+    },
+    "NetStampImageWidthPx": {
+      "type": "number"
+    },
+    "NetStampImageHeightPx": {
+      "type": "number"
+    },
+    "Row1StartsAtPx": {
+      "type": "number"
+    },
+    "Column1StartsAtPx": {
+      "type": "number"
+    },
+    "HorizontalSpaceBetweenNetStampsPx": {
+      "type": "number"
+    },
+    "VerticalSpaceBetweenNetStampsPx": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,81 @@
+{
+  "name": "CreateUnfundedIndicium",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "IntegratorTxID": {
+      "type": "string-1-128"
+    },
+    "TrackingNumber": {
+      "type": "string-0-128"
+    },
+    "Rate": {
+      "type": "RateV21"
+    },
+    "From": {
+      "type": "Address"
+    },
+    "To": {
+      "type": "Address"
+    },
+    "CustomerID": {
+      "type": "string-1-64"
+    },
+    "Customs": {
+      "type": "CustomsV4"
+    },
+    "SampleOnly": {
+      "type": "boolean"
+    },
+    "ImageType": {
+      "type": "ImageType"
+    },
+    "EltronPrinterDPIType": {
+      "type": "EltronPrinterDPIType"
+    },
+    "memo": {
+      "type": "string"
+    },
+    "cost_code_id": {
+      "type": "number"
+    },
+    "recipient_email": {
+      "type": "string"
+    },
+    "deliveryNotification": {
+      "type": "boolean"
+    },
+    "shipmentNotificationCC": {
+      "type": "boolean"
+    },
+    "shipmentNotificationCCToMain": {
+      "type": "boolean"
+    },
+    "shipmentNotificationFromCompany": {
+      "type": "boolean"
+    },
+    "shipmentNotificationCompanyInSubject": {
+      "type": "boolean"
+    },
+    "rotationDegrees": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

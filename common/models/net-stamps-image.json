@@ -1,0 +1,45 @@
+{
+  "name": "NetStampsImage",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ImageName": {
+      "type": "string"
+    },
+    "ImageID": {
+      "type": "number"
+    },
+    "ImageCategory": {
+      "type": "string"
+    },
+    "ImageDescription": {
+      "type": "string"
+    },
+    "ImageUrl": {
+      "type": "string"
+    },
+    "ImageIndex": {
+      "type": "number"
+    },
+    "ImageType": {
+      "type": "NetStampsImageType"
+    },
+    "PreviewOnly": {
+      "type": "boolean"
+    },
+    "PlansUpgradeToPrintImage": {
+      "type": "ArrayOfPlan"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "IndiciumData",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "IBI": {
+      "type": "base64Binary"
+    },
+    "IBILite": {
+      "type": "base64Binary"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,99 @@
+{
+  "name": "AccountInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CustomerID": {
+      "type": "number"
+    },
+    "MeterNumber": {
+      "type": "number"
+    },
+    "UserID": {
+      "type": "number"
+    },
+    "PostageBalance": {
+      "type": "PostageBalance"
+    },
+    "MaxPostageBalance": {
+      "type": "number"
+    },
+    "LPOCity": {
+      "type": "string-0-29"
+    },
+    "LPOState": {
+      "type": "string-0-3"
+    },
+    "LPOZip": {
+      "type": "string-0-6"
+    },
+    "AccountId": {
+      "type": "number"
+    },
+    "CorpID": {
+      "type": "number"
+    },
+    "StoreID": {
+      "type": "string"
+    },
+    "CostCodeLimit": {
+      "type": "number"
+    },
+    "MonthlyPostagePurchaseLimit": {
+      "type": "number"
+    },
+    "MaxUsers": {
+      "type": "number"
+    },
+    "Capabilities": {
+      "type": "CapabilitiesV11"
+    },
+    "MeterPhysicalAddress": {
+      "type": "Address"
+    },
+    "ResubmitStatus": {
+      "type": "ResubmissionStatus"
+    },
+    "ResubmitCookie": {
+      "type": "string"
+    },
+    "PlanID": {
+      "type": "number"
+    },
+    "PendingPlanId": {
+      "type": "number"
+    },
+    "Username": {
+      "type": "string-0-40"
+    },
+    "RatesetType": {
+      "type": "RatesetType"
+    },
+    "USPSRep": {
+      "type": "boolean"
+    },
+    "AutoBuySettings": {
+      "type": "AutoBuySettings"
+    },
+    "RateToken": {
+      "type": "string"
+    },
+    "CustomerData": {
+      "type": "string"
+    },
+    "Terms": {
+      "type": "Terms"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

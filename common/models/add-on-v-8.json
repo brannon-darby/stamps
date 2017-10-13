@@ -1,0 +1,33 @@
+{
+  "name": "AddOnV8",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Amount": {
+      "type": "number"
+    },
+    "AddOnType": {
+      "type": "AddOnTypeV8"
+    },
+    "RequiresAllOf": {
+      "type": "ArrayOfArrayOfAddOnTypeV8"
+    },
+    "ProhibitedWithAnyOf": {
+      "type": "ArrayOfAddOnTypeV8"
+    },
+    "MissingData": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ActualPackageInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ActualPackageType": {
+      "type": "PackageTypeV6"
+    },
+    "ActualWeight": {
+      "type": "number"
+    },
+    "ActualLength": {
+      "type": "number"
+    },
+    "ActualWidth": {
+      "type": "number"
+    },
+    "ActualHeight": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

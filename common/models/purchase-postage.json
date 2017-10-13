@@ -1,0 +1,42 @@
+{
+  "name": "PurchasePostage",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "Authenticator": {
+      "type": "string"
+    },
+    "PurchaseAmount": {
+      "type": "number"
+    },
+    "ControlTotal": {
+      "type": "number"
+    },
+    "MI": {
+      "type": "MachineInfo"
+    },
+    "IntegratorTxID": {
+      "type": "string-1-128"
+    },
+    "SendEmail": {
+      "type": "boolean"
+    },
+    "Merchant": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

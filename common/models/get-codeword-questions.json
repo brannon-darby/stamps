@@ -1,0 +1,24 @@
+{
+  "name": "GetCodewordQuestions",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Username": {
+      "type": "string-0-40"
+    },
+    "IntegrationId": {
+      "type": "guid"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

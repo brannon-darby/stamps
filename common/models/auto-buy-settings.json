@@ -1,0 +1,27 @@
+{
+  "name": "AutoBuySettings",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AutoBuyEnabled": {
+      "type": "boolean"
+    },
+    "PurchaseAmount": {
+      "type": "number"
+    },
+    "TriggerAmount": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

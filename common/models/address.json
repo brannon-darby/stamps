@@ -1,0 +1,99 @@
+{
+  "name": "Address",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "FullName": {
+      "type": "string"
+    },
+    "NamePrefix": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "NameSuffix": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Department": {
+      "type": "string"
+    },
+    "Company": {
+      "type": "string-0-50"
+    },
+    "Address1": {
+      "type": "string-1-2147483647"
+    },
+    "Address2": {
+      "type": "string-0-50"
+    },
+    "Address3": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string-0-50"
+    },
+    "State": {
+      "type": "string-0-30"
+    },
+    "ZIPCode": {
+      "type": "string-0-5"
+    },
+    "ZIPCodeAddOn": {
+      "type": "string-0-4"
+    },
+    "DPB": {
+      "type": "string"
+    },
+    "CheckDigit": {
+      "type": "string"
+    },
+    "Province": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string-2-2"
+    },
+    "Urbanization": {
+      "type": "string-0-28"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "Extension": {
+      "type": "string"
+    },
+    "CleanseHash": {
+      "type": "string"
+    },
+    "OverrideHash": {
+      "type": "string"
+    },
+    "EmailAddress": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

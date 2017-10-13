@@ -1,0 +1,51 @@
+{
+  "name": "CreateMailingLabelIndicia",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "IntegratorTxId": {
+      "type": "string-1-128"
+    },
+    "Layout": {
+      "type": "string-0-128"
+    },
+    "PrintAddress": {
+      "type": "boolean"
+    },
+    "StartRow": {
+      "type": "number"
+    },
+    "StartColumn": {
+      "type": "number"
+    },
+    "IndiciumInfo": {
+      "type": "ArrayOfIndiciumInfoV13"
+    },
+    "Mode": {
+      "type": "CreateIndiciumModeV1"
+    },
+    "ImageType": {
+      "type": "ImageType"
+    },
+    "RateToken": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

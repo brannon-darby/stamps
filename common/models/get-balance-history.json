@@ -1,0 +1,36 @@
+{
+  "name": "GetBalanceHistory",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "TransactionsPerPage": {
+      "type": "number"
+    },
+    "TransactionDateMin": {
+      "type": "date"
+    },
+    "TransactionDateMax": {
+      "type": "date"
+    },
+    "Filters": {
+      "type": "ArrayOfTransactionType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

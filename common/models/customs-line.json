@@ -1,0 +1,39 @@
+{
+  "name": "CustomsLine",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Description": {
+      "type": "string-1-60"
+    },
+    "Quantity": {
+      "type": "double-ge-1"
+    },
+    "Value": {
+      "type": "decimal-ge-0"
+    },
+    "WeightLb": {
+      "type": "number"
+    },
+    "WeightOz": {
+      "type": "number"
+    },
+    "HSTariffNumber": {
+      "type": "string-0-6"
+    },
+    "CountryOfOrigin": {
+      "type": "string-2-2"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

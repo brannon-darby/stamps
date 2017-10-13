@@ -1,0 +1,27 @@
+{
+  "name": "Filters",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PrintDateMin": {
+      "type": "date"
+    },
+    "PrintDateMax": {
+      "type": "date"
+    },
+    "SearchCriteria": {
+      "type": "ArrayOfSearchFor"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

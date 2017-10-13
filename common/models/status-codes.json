@@ -1,0 +1,30 @@
+{
+  "name": "StatusCodes",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ReturnCode": {
+      "type": "number"
+    },
+    "Footnotes": {
+      "type": "ArrayOfFootnote"
+    },
+    "DpvFootnotes": {
+      "type": "ArrayOfDpvFootnote"
+    },
+    "SdcFootnotes": {
+      "type": "ArrayOfInt"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

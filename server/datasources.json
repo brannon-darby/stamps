@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "stamps": {
+    "url": "https://swsim.stamps.com/swsim/swsimv57.asmx",
+    "name": "stamps",
+    "wsdl": "https://swsim.stamps.com/swsim/swsimv57.asmx?wsdl",
+    "remotingEnabled": true,
+    "connector": "soap"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "CreateEnvelopeIndicium",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "IntegratorTxID": {
+      "type": "string-1-128"
+    },
+    "Rate": {
+      "type": "RateV21"
+    },
+    "From": {
+      "type": "Address"
+    },
+    "To": {
+      "type": "Address"
+    },
+    "CustomerID": {
+      "type": "string-1-64"
+    },
+    "Mode": {
+      "type": "CreateIndiciumModeV1"
+    },
+    "ImageType": {
+      "type": "ImageType"
+    },
+    "CostCodeId": {
+      "type": "number"
+    },
+    "HideFIM": {
+      "type": "boolean"
+    },
+    "RateToken": {
+      "type": "string"
+    },
+    "OrderId": {
+      "type": "string-0-100"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "PackageInfoV1",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PackageType": {
+      "type": "PackageTypeV6"
+    },
+    "NumberOfLabels": {
+      "type": "number"
+    },
+    "WeightLb": {
+      "type": "number"
+    },
+    "WeightOz": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

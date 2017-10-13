@@ -1,0 +1,141 @@
+{
+  "name": "CapabilitiesV11",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CanPrintShipping": {
+      "type": "boolean"
+    },
+    "CanUseCostCodes": {
+      "type": "boolean"
+    },
+    "CanUseHiddenPostage": {
+      "type": "boolean"
+    },
+    "CanPurchaseSDCInsurance": {
+      "type": "boolean"
+    },
+    "CanPrintMemoOnShippingLabel": {
+      "type": "boolean"
+    },
+    "CanPrintInternational": {
+      "type": "boolean"
+    },
+    "CanPurchasePostage": {
+      "type": "boolean"
+    },
+    "CanEditCostCodes": {
+      "type": "boolean"
+    },
+    "MustUseCostCodes": {
+      "type": "boolean"
+    },
+    "CanViewOnlineReports": {
+      "type": "boolean"
+    },
+    "PerPrintLimit": {
+      "type": "number"
+    },
+    "AllowAllMailClasses": {
+      "type": "boolean"
+    },
+    "CanPrintReturnShippingLabel": {
+      "type": "boolean"
+    },
+    "CanManageUsers": {
+      "type": "boolean"
+    },
+    "CanPrintNetStamps": {
+      "type": "boolean"
+    },
+    "CanEmailNotifications": {
+      "type": "boolean"
+    },
+    "CanViewReports": {
+      "type": "boolean"
+    },
+    "CanCreateSCANForm": {
+      "type": "boolean"
+    },
+    "AllowRestrictedSheets": {
+      "type": "boolean"
+    },
+    "HideUnavailableFeatures": {
+      "type": "boolean"
+    },
+    "WebPostage": {
+      "type": "boolean"
+    },
+    "CanViewInsuranceHistory": {
+      "type": "boolean"
+    },
+    "CanChangeServicePlan": {
+      "type": "boolean"
+    },
+    "HideEstimatedDeliveryTime": {
+      "type": "boolean"
+    },
+    "CanPurchaseFromStore": {
+      "type": "boolean"
+    },
+    "CanChangePhysicalAddress": {
+      "type": "boolean"
+    },
+    "CanChangePaymentMethod": {
+      "type": "boolean"
+    },
+    "CanChangeContactInfo": {
+      "type": "boolean"
+    },
+    "CanViewAdvancedReporting": {
+      "type": "boolean"
+    },
+    "IsIBIPEnabled": {
+      "type": "boolean"
+    },
+    "CanCreateCriticalMail": {
+      "type": "boolean"
+    },
+    "CanUseInvoicing": {
+      "type": "boolean"
+    },
+    "CanUseCertifiedMail": {
+      "type": "boolean"
+    },
+    "CanPrintAllIndiciumValues": {
+      "type": "boolean"
+    },
+    "AllowUspsMPosLabel": {
+      "type": "boolean"
+    },
+    "DisableConversationToken": {
+      "type": "boolean"
+    },
+    "CanPrintCubic": {
+      "type": "boolean"
+    },
+    "CanPrintGP": {
+      "type": "boolean"
+    },
+    "GPShipToConsolidator": {
+      "type": "boolean"
+    },
+    "CanCreateUnlimitedStores": {
+      "type": "boolean"
+    },
+    "CanPrintGPSmartSaver": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

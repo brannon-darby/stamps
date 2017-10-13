@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfIndiciumInfoV13",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "IndiciumInfoV13": {
+      "type": "IndiciumInfoV13"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

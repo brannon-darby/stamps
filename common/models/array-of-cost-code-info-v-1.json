@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfCost_code_info_v1",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CostCodes": {
+      "type": "cost_code_info_v1"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

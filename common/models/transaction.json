@@ -1,0 +1,36 @@
+{
+  "name": "Transaction",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Date": {
+      "type": "dateTime"
+    },
+    "Cost": {
+      "type": "number"
+    },
+    "Credit": {
+      "type": "number"
+    },
+    "Balance": {
+      "type": "number"
+    },
+    "Type": {
+      "type": "TransactionType"
+    },
+    "Brand": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

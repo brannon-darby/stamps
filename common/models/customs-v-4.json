@@ -1,0 +1,42 @@
+{
+  "name": "CustomsV4",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ContentType": {
+      "type": "ContentTypeV2"
+    },
+    "Comments": {
+      "type": "string-0-76"
+    },
+    "LicenseNumber": {
+      "type": "string-0-16"
+    },
+    "CertificateNumber": {
+      "type": "string-0-12"
+    },
+    "InvoiceNumber": {
+      "type": "string-0-15"
+    },
+    "OtherDescribe": {
+      "type": "string-0-20"
+    },
+    "CustomsLines": {
+      "type": "ArrayOfCustomsLine"
+    },
+    "CustomsSigner": {
+      "type": "string-2-100"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ShipmentNotification",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Email": {
+      "type": "string"
+    },
+    "CCToAccountHolder": {
+      "type": "boolean"
+    },
+    "CCToMain": {
+      "type": "boolean"
+    },
+    "UseCompanyNameInFromLine": {
+      "type": "boolean"
+    },
+    "UseCompanyNameInSubject": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

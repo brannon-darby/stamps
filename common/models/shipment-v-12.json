@@ -1,0 +1,78 @@
+{
+  "name": "ShipmentV12",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "StampsTxId": {
+      "type": "string"
+    },
+    "ShipmentStatus": {
+      "type": "ShipmentStatusV1"
+    },
+    "PrintDate": {
+      "type": "dateTime"
+    },
+    "MailDate": {
+      "type": "dateTime"
+    },
+    "DeliveredDate": {
+      "type": "dateTime"
+    },
+    "TrackingNumber": {
+      "type": "string-1-128"
+    },
+    "ScanFormId": {
+      "type": "string"
+    },
+    "Service": {
+      "type": "ServicesV7"
+    },
+    "AddOns": {
+      "type": "ArrayOfAddOnV8"
+    },
+    "FromZIPCode": {
+      "type": "string"
+    },
+    "ReturnTo": {
+      "type": "Address"
+    },
+    "ShipTo": {
+      "type": "Address"
+    },
+    "PackageInfo": {
+      "type": "PackageInfoV1"
+    },
+    "References": {
+      "type": "ReferencesV2"
+    },
+    "RefundType": {
+      "type": "RefundTypeV1"
+    },
+    "RefundStatus": {
+      "type": "RefundStatusV1"
+    },
+    "ExpiryDate": {
+      "type": "dateTime"
+    },
+    "Reserved": {
+      "type": "ServicesV7"
+    },
+    "AdjustmentDetails": {
+      "type": "AdjustmentDetails"
+    },
+    "ClaimStatus": {
+      "type": "ClaimStatusType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

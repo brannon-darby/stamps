@@ -1,0 +1,27 @@
+{
+  "name": "Plan",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PlanId": {
+      "type": "number"
+    },
+    "PlanName": {
+      "type": "string"
+    },
+    "MonthlyBaseFee": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

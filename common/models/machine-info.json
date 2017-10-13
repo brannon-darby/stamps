@@ -1,0 +1,27 @@
+{
+  "name": "MachineInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "IPAddress": {
+      "type": "string-0-15"
+    },
+    "MacAddress": {
+      "type": "string-0-12"
+    },
+    "FP": {
+      "type": "FP"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

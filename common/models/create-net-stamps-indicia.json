@@ -1,0 +1,54 @@
+{
+  "name": "CreateNetStampsIndicia",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "Credentials": {
+      "type": "Credentials"
+    },
+    "IntegratorTxId": {
+      "type": "string-1-128"
+    },
+    "Layout": {
+      "type": "string-0-128"
+    },
+    "NetStamps": {
+      "type": "ArrayOfNetStampV17"
+    },
+    "From": {
+      "type": "Address"
+    },
+    "SampleOnly": {
+      "type": "boolean"
+    },
+    "ImageType": {
+      "type": "ImageType"
+    },
+    "cost_code_id": {
+      "type": "number"
+    },
+    "ImageId": {
+      "type": "number"
+    },
+    "ReturnIndiciaData": {
+      "type": "boolean"
+    },
+    "RateToken": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

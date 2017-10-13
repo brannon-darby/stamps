@@ -1,0 +1,66 @@
+{
+  "name": "RegisterAccount",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "IntegrationID": {
+      "type": "guid"
+    },
+    "UserName": {
+      "type": "string-0-40"
+    },
+    "Password": {
+      "type": "string-6-20"
+    },
+    "Codeword1Type": {
+      "type": "CodewordType"
+    },
+    "Codeword1": {
+      "type": "string"
+    },
+    "Codeword2Type": {
+      "type": "CodewordType"
+    },
+    "Codeword2": {
+      "type": "string"
+    },
+    "PhysicalAddress": {
+      "type": "Address"
+    },
+    "MailingAddress": {
+      "type": "Address"
+    },
+    "MachineInfo": {
+      "type": "MachineInfo"
+    },
+    "Email": {
+      "type": "string-0-41"
+    },
+    "AccountType": {
+      "type": "AccountType"
+    },
+    "PromoCode": {
+      "type": "string-0-50"
+    },
+    "CreditCard": {
+      "type": "CreditCard"
+    },
+    "AchAccount": {
+      "type": "AchAccount"
+    },
+    "SendEmail": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfNetStampsImage",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "NetStampsImage": {
+      "type": "NetStampsImage"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

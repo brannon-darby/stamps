@@ -1,0 +1,48 @@
+{
+  "name": "CreateNetStampsIndiciaResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "IntegratorTxId": {
+      "type": "string-1-128"
+    },
+    "StampsTxId": {
+      "type": "guid"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "PostageBalance": {
+      "type": "PostageBalance"
+    },
+    "NetstampsStatus": {
+      "type": "NetstampsStatus"
+    },
+    "NetstampsIssued": {
+      "type": "number"
+    },
+    "ErrorReason": {
+      "type": "string"
+    },
+    "Mac": {
+      "type": "string"
+    },
+    "IndiciaData": {
+      "type": "ArrayOfIndiciumData"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

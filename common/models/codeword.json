@@ -1,0 +1,27 @@
+{
+  "name": "Codeword",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CodewordType": {
+      "type": "CodewordType"
+    },
+    "Value": {
+      "type": "unsignedInt"
+    },
+    "Description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

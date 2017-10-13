@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfArrayOfAddOnTypeV8",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "RequiresOneOf": {
+      "type": "ArrayOfAddOnTypeV8"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

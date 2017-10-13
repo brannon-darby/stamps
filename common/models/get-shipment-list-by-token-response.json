@@ -1,0 +1,33 @@
+{
+  "name": "GetShipmentListByTokenResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "ShipmentListToken": {
+      "type": "string"
+    },
+    "ShipmentsPerPage": {
+      "type": "number"
+    },
+    "TotalPages": {
+      "type": "number"
+    },
+    "Shipments": {
+      "type": "ArrayOfShipmentV12"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

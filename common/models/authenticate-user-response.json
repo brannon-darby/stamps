@@ -1,0 +1,36 @@
+{
+  "name": "AuthenticateUserResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authenticator": {
+      "type": "string"
+    },
+    "LastLoginTime": {
+      "type": "dateTime"
+    },
+    "ClearCredential": {
+      "type": "boolean"
+    },
+    "LoginBannerText": {
+      "type": "string"
+    },
+    "PasswordExpired": {
+      "type": "boolean"
+    },
+    "CodewordsSet": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

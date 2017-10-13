@@ -1,0 +1,45 @@
+{
+  "name": "TrackingEvent",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Timestamp": {
+      "type": "dateTime"
+    },
+    "Event": {
+      "type": "string"
+    },
+    "TrackingEventType": {
+      "type": "TrackingEventType"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Zip": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "SignedBy": {
+      "type": "string"
+    },
+    "AuthorizedAgent": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

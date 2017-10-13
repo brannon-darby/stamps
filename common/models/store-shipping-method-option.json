@@ -1,0 +1,45 @@
+{
+  "name": "StoreShippingMethodOption",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "StoreShippingMethod": {
+      "type": "StoreShippingMethodType"
+    },
+    "StoreDeliveryTimeMinimum": {
+      "type": "number"
+    },
+    "StoreDeliveryTimeMaximum": {
+      "type": "number"
+    },
+    "Skus": {
+      "type": "ArrayOfSku"
+    },
+    "StoreProductTotal": {
+      "type": "number"
+    },
+    "StoreProductDiscount": {
+      "type": "number"
+    },
+    "StoreShippingAmount": {
+      "type": "number"
+    },
+    "StoreTaxTotal": {
+      "type": "number"
+    },
+    "StoreOrderTotal": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

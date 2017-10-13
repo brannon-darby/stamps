@@ -1,0 +1,24 @@
+{
+  "name": "GetCodewordQuestionsResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Codeword1Question": {
+      "type": "string"
+    },
+    "Codeword2Question": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
